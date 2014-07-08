@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
     spec.source   = { :git => 'https://github.com/dopanic/FileMD5Hash.git', :tag => '0.0.1' }
     spec.prefix_header_file = 'Common/FileMD5Hash_Prefix.pch'
     spec.preserve_path = 'Common/FileMD5Hash_Prefix.pch'
-    spec.source_files = 'Common/*.{h,c,m,pch}'
+    spec.source_files = 'Common/*.{h,c,m}'
 end
